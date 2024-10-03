@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.box-1 {
+    position: relative;
+    background-image: url(../image/Top-Programming-Languages-to-Learn-in-2024.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 128, 0, 0.4); /* Green color with 50% opacity */
+   
+}
+.hedline
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.pad-top
+{
+    padding-top: 200px;
+}
+.crdlogo
+{
+    height: 50px;
+    height: 50px;
+}
+.custom-card {
+    border: 1px solid #ddd;
+    border-top: 5px solid #007bff; /* Top border of 5px */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.custom-card:hover {
+    background-color: antiquewhite;
+    transform: translateY(-10px); /* Hover effect to lift card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    border-top-color: #28a745; /* Change top border color on hover */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+         
+.btn-shine {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 10px;
+    padding: 5px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-shine:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
